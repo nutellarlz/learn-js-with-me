@@ -8,11 +8,9 @@
 
 
 function assertEquals(c, d){
-  if (typeof c != "boolean"){ // c is not a boolean
-    return "Fail";
-  }else if (typeof d != "boolean"){ // d is not a boolean
-    return "Fail"
-  }else if (c == d){ // c & d are the same boolean
+  if (typeof c == "boolean" && // c is not a boolean
+      typeof d == "boolean" && // d is not a boolean
+     c == d){ // c & d are the same boolean
     return "Pass";
   }else{ // c & d are not equal
     return "Fail";
