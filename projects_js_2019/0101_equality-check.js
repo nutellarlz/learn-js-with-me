@@ -5,3 +5,7 @@
  * @license Mozilla Public License 2.0
  * @copyright 2019 Josiah Horton.
  */
+
+
+function assertEquals(c, d){
+}
