@@ -18,3 +18,11 @@ function assertEquals(c, d){
     return "Fail";
   }
 }
+
+
+
+
+
+function checkEquality(a, b) {
+  // TODO: check the quality of a and b
+}
