@@ -10,7 +10,7 @@
 function assertEquals(c, d){
   if (typeof c == "boolean" && // c is a boolean
       typeof d == "boolean" && // d is a boolean
-     c == d){ // c & d are the same boolean
+      c == d){ // c & d are the same boolean
     return "Pass";
   }else{ // c & d are not equal
     return "Fail";
