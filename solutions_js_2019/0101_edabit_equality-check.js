@@ -18,9 +18,6 @@ function assertEquals(c, d){
 }
 
 
-
-
-
 function checkEquality(a, b) {
   if (a != a && b != b){ // a & b are both NaN
     return false; // NaN cannot be equal to NaN

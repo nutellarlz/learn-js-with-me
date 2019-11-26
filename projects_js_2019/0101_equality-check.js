@@ -18,9 +18,6 @@ function assertEquals(c, d){
 }
 
 
-
-
-
 function checkEquality(a, b) {
   // TODO: check the quality of a and b
 }
