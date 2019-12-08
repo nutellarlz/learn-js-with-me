@@ -29,5 +29,10 @@ var b = 3; // this b has a global scope
  function four(){
    // x's scope is all of four
    var x = 4;
+   function addOne(){
+     // y's scope is only addOne
+     var y = 1;
+     // TODO: log x + y
+   }
    // TODO: log x
  }
