@@ -7,3 +7,8 @@
  */
 
 
+ function one(){
+   // this a is specific to this scope
+   var a = 1;
+   // TODO: log a
+ }
