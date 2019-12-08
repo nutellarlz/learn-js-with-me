@@ -7,6 +7,8 @@
  */
 
 
+var b = 3; // this b has a global scope
+
  function one(){
    // this a is specific to this scope
    var a = 1;
@@ -16,4 +18,8 @@
    // this a is specific to this scope
    var a = 2;
    // TODO: log a
+ }
+ function three(){
+   // b's scope is the whole js file
+   // TODO: log b
  }
