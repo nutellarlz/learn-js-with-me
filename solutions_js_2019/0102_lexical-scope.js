@@ -12,6 +12,7 @@ var b = 3;
  function one(){
    // this a is specific to this scope
    var a = 1;
+   console.log(a);
  }
 
   one(); // 1
@@ -19,12 +20,14 @@ var b = 3;
  function two(){
    // this a is specific to this scope
    var a = 2;
+   console.log(a);
  }
 
  two(); // 2
 
  function three(){
    // b's scope is the whole file
+   console.log(b);
  }
 
  three(); // 3
@@ -35,7 +38,9 @@ var b = 3;
    function addOne(){
      // y's scope is only addOne
      var y = 1;
+     console.log(x + y);
    }
+   console.log(x);
 
    addOne();
  }
