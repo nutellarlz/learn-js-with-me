@@ -15,16 +15,22 @@ var b = 3; // this b has a global scope
    // TODO: log a
  }
 
+ one(); // 1
+
  function two(){
    // this a is specific to this scope
    var a = 2;
    // TODO: log a
  }
 
+ two(); // 2
+
  function three(){
    // b's scope is the whole js file
    // TODO: log b
  }
+
+ three(); // 3
 
  function four(){
    // x's scope is all of four
@@ -38,3 +44,6 @@ var b = 3; // this b has a global scope
 
    addOne();
  }
+
+ four(); // 4 and 5
+
