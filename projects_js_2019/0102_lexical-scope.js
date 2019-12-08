@@ -12,3 +12,8 @@
    var a = 1;
    // TODO: log a
  }
+ function two(){
+   // this a is specific to this scope
+   var a = 2;
+   // TODO: log a
+ }
