@@ -35,4 +35,6 @@ var b = 3; // this b has a global scope
      // TODO: log x + y
    }
    // TODO: log x
+
+   addOne();
  }
